@@ -1,21 +1,25 @@
-//
-//  KInternetTime.h
-//  SK-iOS-BaseFunction
-//
-//  Created by kai.shang on 16/1/11.
-//  Copyright © 2016年 SK. All rights reserved.
-//
+/*******************************************************************************
+     Copyright (C), 2011-2013, kai.shang
+     
+     File name:  KInternetTime.h
+     Author:     kai.shang
+     E-mail:     skwaityou@gmail.com
+     
+     Description:
+            获取网络侧时间,原理（http协议应答时间解析）。
+     
+     History:
+         2016-01-08: create
+ 
+     
+     Copyright information:
+            This file was intended to be under GPL protocol. However, I may use this library
+         in my work as I am an employee. And my company may require me to keep it secret.
+         Therefore, this file is neither open source nor under GPL control.
+     
+ ********************************************************************************/
 
-/****************************************************************************
- *
- *功能：
- *  1、获取网络侧时间
- *
- *原理：
- *  1、http协议应答时间解析
- *
- *
- */
+
 
 
 #import <Foundation/Foundation.h>
