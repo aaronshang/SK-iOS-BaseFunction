@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "InternetTime/KInternetTime.h"
+#import "BlockFunction.h"
 
 @interface FirstViewController ()
 
@@ -27,13 +28,18 @@
 
 - (IBAction) getNetTime:(id)sender{
     
-    [[KInternetTime sharedInstance] startRequest];
+    BlockFunction *blockFun = [BlockFunction alloc];
+    [blockFun test];
     
-    [KInternetTime sharedInstance].notiBlock=^(NSDate * date){
-        
-        NSLog(@"Get Success Time %@", date);
-        
-    };
+    
+//    [[KInternetTime sharedInstance] startRequest];
+//    
+//    [KInternetTime sharedInstance].notiBlock=^(NSDate * date){
+//        
+//        NSLog(@"Get Success Time %@", date);
+//        
+//    };
+
 }
 
 @end
