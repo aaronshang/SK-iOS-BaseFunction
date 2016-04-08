@@ -64,6 +64,7 @@
     TestDealloc *testDealloc = [TestDealloc alloc];
     [testDealloc testNSTimer];
     [testDealloc cleanTimer]; //关键的，如果不调用，则会造成循环引用。dealloc运行无效，需显示调用。
+
 }
 
 @end
