@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 #import "InternetTime/KInternetTime.h"
 #import "BlockFunction.h"
+#import "DeclaredProperty.h"
 
 @interface FirstViewController ()
 
@@ -28,8 +29,11 @@
 
 - (IBAction) getNetTime:(id)sender{
     
-    BlockFunction *blockFun = [BlockFunction alloc];
-    [blockFun test];
+    DeclaredProperty *pro = DeclaredProperty.new;
+    [pro test];
+    
+//    BlockFunction *blockFun = [BlockFunction alloc];
+//    [blockFun test];
     
     
 //    [[KInternetTime sharedInstance] startRequest];

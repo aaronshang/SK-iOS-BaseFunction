@@ -16,6 +16,7 @@
 		937A9A7F1C43525B0091D7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937A9A7E1C43525B0091D7E7 /* Assets.xcassets */; };
 		937A9A821C43525B0091D7E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937A9A801C43525B0091D7E7 /* LaunchScreen.storyboard */; };
 		937A9A8B1C4353610091D7E7 /* KInternetTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 937A9A8A1C4353610091D7E7 /* KInternetTime.m */; settings = {ASSET_TAGS = (); }; };
+		93AB44F71CBDF1390081AD89 /* DeclaredProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		937A9A831C43525B0091D7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937A9A8A1C4353610091D7E7 /* KInternetTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KInternetTime.m; sourceTree = "<group>"; };
 		937A9A8C1C43537F0091D7E7 /* KInternetTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KInternetTime.h; sourceTree = "<group>"; };
+		93AB44F51CBDF1380081AD89 /* DeclaredProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeclaredProperty.h; sourceTree = "<group>"; };
+		93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeclaredProperty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,8 @@
 			children = (
 				93240CFE1CB779E0000CB9F6 /* BlockFunction.h */,
 				93240CFF1CB779E0000CB9F6 /* BlockFunction.m */,
+				93AB44F51CBDF1380081AD89 /* DeclaredProperty.h */,
+				93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */,
 			);
 			path = SkillPoint;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AB44F71CBDF1390081AD89 /* DeclaredProperty.m in Sources */,
 				937A9A7A1C43525B0091D7E7 /* SecondViewController.m in Sources */,
 				937A9A741C43525B0091D7E7 /* AppDelegate.m in Sources */,
 				937A9A771C43525B0091D7E7 /* FirstViewController.m in Sources */,
