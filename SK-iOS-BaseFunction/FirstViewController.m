@@ -10,6 +10,7 @@
 #import "InternetTime/KInternetTime.h"
 #import "BlockFunction.h"
 #import "DeclaredProperty.h"
+#import "TestDeepCopy.h"
 
 @interface FirstViewController ()
 
@@ -28,9 +29,12 @@
 }
 
 - (IBAction) getNetTime:(id)sender{
+
+    TestDeepCopy *deep = [TestDeepCopy alloc];
+    [deep test];
     
-    DeclaredProperty *pro = DeclaredProperty.new;
-    [pro test];
+//    DeclaredProperty *pro = DeclaredProperty.new;
+//    [pro test];
     
 //    BlockFunction *blockFun = [BlockFunction alloc];
 //    [blockFun test];
