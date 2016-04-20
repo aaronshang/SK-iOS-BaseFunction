@@ -12,6 +12,7 @@
 #import "DeclaredProperty.h"
 #import "TestDeepCopy.h"
 #import "GetAddressBook.h"
+#import "TestBlock.h"
 
 @interface FirstViewController ()
 
@@ -30,12 +31,15 @@
 }
 
 - (IBAction) getNetTime:(id)sender{
+    
+    TestBlock *block = [[TestBlock alloc] init];
+    [block testFunction];
 
-    GetAddressBook *book = [[GetAddressBook alloc] init];
-    [book loadPerson];
-    for (AddressPerson *person in [book getAddressPersonAry]) {
-        NSLog(@"name %@",person.name);
-    }
+//    GetAddressBook *book = [[GetAddressBook alloc] init];
+//    [book loadPerson];
+//    for (AddressPerson *person in [book getAddressPersonAry]) {
+//        NSLog(@"name %@",person.name);
+//    }
     
 //    TestDeepCopy *deep = [TestDeepCopy alloc];
 //    [deep test];
