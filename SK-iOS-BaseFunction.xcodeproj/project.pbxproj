@@ -21,6 +21,7 @@
 		939F69011CC0BA18008EAEB8 /* TestDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 939F69001CC0BA18008EAEB8 /* TestDeepCopy.m */; settings = {ASSET_TAGS = (); }; };
 		93AB44F71CBDF1390081AD89 /* DeclaredProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */; settings = {ASSET_TAGS = (); }; };
 		93D645B41CC76A54003FCCDF /* TestBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D645B31CC76A54003FCCDF /* TestBlock.m */; settings = {ASSET_TAGS = (); }; };
+		93D645BF1CC7A7C0003FCCDF /* TestNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D645BE1CC7A7C0003FCCDF /* TestNumber.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeclaredProperty.m; sourceTree = "<group>"; };
 		93D645B21CC76A54003FCCDF /* TestBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBlock.h; sourceTree = "<group>"; };
 		93D645B31CC76A54003FCCDF /* TestBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBlock.m; sourceTree = "<group>"; };
+		93D645BD1CC7A7C0003FCCDF /* TestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNumber.h; sourceTree = "<group>"; };
+		93D645BE1CC7A7C0003FCCDF /* TestNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				93AB44F61CBDF1380081AD89 /* DeclaredProperty.m */,
 				93D645B21CC76A54003FCCDF /* TestBlock.h */,
 				93D645B31CC76A54003FCCDF /* TestBlock.m */,
+				93D645BD1CC7A7C0003FCCDF /* TestNumber.h */,
+				93D645BE1CC7A7C0003FCCDF /* TestNumber.m */,
 			);
 			path = SkillPoint;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				937A9A8B1C4353610091D7E7 /* KInternetTime.m in Sources */,
 				938BA3FF1CC651A10042E744 /* GetAddressBook.m in Sources */,
 				937A9A711C43525B0091D7E7 /* main.m in Sources */,
+				93D645BF1CC7A7C0003FCCDF /* TestNumber.m in Sources */,
 				93240D001CB779E0000CB9F6 /* BlockFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

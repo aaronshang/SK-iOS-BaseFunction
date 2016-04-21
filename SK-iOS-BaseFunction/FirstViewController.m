@@ -13,6 +13,7 @@
 #import "TestDeepCopy.h"
 #import "GetAddressBook.h"
 #import "TestBlock.h"
+#import "TestNumber.h"
 
 @interface FirstViewController ()
 
@@ -32,8 +33,12 @@
 
 - (IBAction) getNetTime:(id)sender{
     
-    TestBlock *block = [[TestBlock alloc] init];
-    [block testFunction];
+    TestNumber *test = [[TestNumber alloc] init];
+    [test test];
+    
+//    
+//    TestBlock *block = [[TestBlock alloc] init];
+//    [block testFunction];
 
 //    GetAddressBook *book = [[GetAddressBook alloc] init];
 //    [book loadPerson];
