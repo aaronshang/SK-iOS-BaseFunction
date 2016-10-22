@@ -33,8 +33,8 @@
 
 - (IBAction) getNetTime:(id)sender{
     
-    TestNumber *test = [[TestNumber alloc] init];
-    [test test];
+//    TestNumber *test = [[TestNumber alloc] init];
+//    [test test];
     
 //    
 //    TestBlock *block = [[TestBlock alloc] init];
@@ -46,8 +46,8 @@
 //        NSLog(@"name %@",person.name);
 //    }
     
-//    TestDeepCopy *deep = [TestDeepCopy alloc];
-//    [deep test];
+    TestDeepCopy *deep = [TestDeepCopy alloc];
+    [deep test];
     
 //    DeclaredProperty *pro = DeclaredProperty.new;
 //    [pro test];
